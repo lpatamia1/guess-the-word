@@ -1,12 +1,23 @@
-# guess-the-word
-A python word guessing game with ASCII hangman art.
+# 🎲 guess-the-word
 
-## How to Run
-1. Clone the repo
-2. Run 'python.game.py'
+A fun Python word guessing game with ASCII hangman art!
 
-## Features
-- Random word selection
-- Tracks guessed letters
-- ASCII hangman drawing updates with wrong guesses
+---
+
+## 🚀 How to Run
+
+1. Clone this repo
+2. Run `python game.py` in your terminal
+
+---
+
+## ✨ Features
+
+- Random word selection every game
+- Tracks and displays guessed letters
+- ASCII hangman art updates with each wrong guess
 - No penalty for repeating guesses
+
+---
+
+Enjoy playing and feel free to add your own words!
