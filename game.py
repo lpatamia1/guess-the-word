@@ -59,7 +59,7 @@ hangman_stages = [
                    |
              ========='''
 ]
-word_bank = ['python', 'coffee', 'planet', 'window', 'garden', 'music', 'puzzle', 'forest', 'rocket', 'island']
+word_bank = ['python', 'coffee', 'planet', 'window', 'garden', 'music', 'puzzle', 'forest', 'rocket', 'island', 'button', 'candle', 'matcha', 'anime', 'japan', 'karaoke', 'zombie']
 word = random.choice(word_bank)
 
 guessedWord = ['_'] * len(word)
