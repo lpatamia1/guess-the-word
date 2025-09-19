@@ -6,12 +6,12 @@ guessedWord = ['_'] * len(word)
 attempts = 10
 
 # Game Loop
-while attemps > 0:
+while attempts > 0:
     print('\nCurrent word: ' + ' '.join(guessedWord))
     guess = input('Guess a letter: ').lower()
     if guess in word:
         for i in range(len(word)):
-            for word[i] == guess:
+            if word[i] == guess:
                 guessedWord[i] = guess
         print('Great guess!')
     else:
